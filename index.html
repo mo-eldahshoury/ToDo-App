@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium ToDo Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Workspace</h1>
+            <p>Streamline your day with elegant async tracking.</p>
+        </header>
+
+        <form id="todoForm" class="todo-form">
+            <div class="input-wrapper">
+                <input type="text" id="todoInput" placeholder="What needs to be done?" required minlength="3">
+                <button type="submit" id="submitButton">
+                    <span>Add Task</span>
+                </button>
+            </div>
+        </form>
+
+        <div class="todo-controls">
+            <span id="todoCount">0 items left</span>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+            <button id="clearCompleted" class="clear-btn">Clear Completed</button>
+        </div>
+
+        <div id="loadingMessage" class="message loading">
+            <div class="spinner"></div>
+            <span>Syncing workspace...</span>
+        </div>
+        <div id="errorMessage" class="message error"></div>
+
+        <div id="todoList" class="todo-list"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
