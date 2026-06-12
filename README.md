@@ -1,5 +1,5 @@
 What We'll Be Building
-We'll create a ToDo app that:
+We'll create a ToDo app that: 
 
 Fetches todo data from an API
 Displays todos in a user-friendly way
