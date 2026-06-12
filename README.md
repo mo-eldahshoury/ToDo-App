@@ -35,6 +35,7 @@ Understanding the Data Structure
 Before we start building our ToDo application, the first thing any experienced developer would do is understand what data they're working with. Let's explore the data from JSONPlaceholder's todo endpoint.
 
 
+
 First, create your project structure:
 
 todo-app/
