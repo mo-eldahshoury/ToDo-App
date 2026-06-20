@@ -11,7 +11,7 @@ Allows deleting todos
 What We'll Be Using
 DOM manipulation (creating/modifying elements)
 Event handling
-Fetch API for HTTP requests
+Fetch API for HTTP requests 
 JSONPlaceholder API as our backend
 Async/await for handling asynchronous operations
 
