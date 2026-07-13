@@ -1,4 +1,4 @@
-What We'll Be Building
+What We'll Be Building 
 
 We'll create a ToDo app that:
 
