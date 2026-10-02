@@ -1,6 +1,5 @@
 What We'll Be Building 
 
-
 We'll create a ToDo app that:
 
 Fetches todo data from an API
